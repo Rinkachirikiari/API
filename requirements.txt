@@ -1,6 +1,5 @@
 numpy
 pandas
 streamlit
-mlxtend
-xgboost
+pickle
 scikit-learn==0.22.2
