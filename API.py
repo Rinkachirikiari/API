@@ -26,8 +26,8 @@ html_temp = """
       
 # display the front end aspect
 st.markdown(html_temp, unsafe_allow_html = True) 
-st.subheader('by Mathis')
-st.subheader("Bienvenue ! \n Nous allons évaluer grâce aux informations que vous nous donnerez \nles risques qui les votres d'être accro à la nicotine !")
+st.subheader('by M&T')
+st.subheader("Bienvenue ! \n Nous allons évaluer grâce aux informations que vous nous donnerez \nles risques qui sont les votres d'être accro à la nicotine !")
 st.text('Voici une légende vous permettant de configurer votre profil :')
 st.text('Pays : \n0.24923 Canada \n-0.46841 New Zealand \n-0.28519 Other\n0.21128 Republic of Ireland\n0.96082 UK \n-0.57009 USA\n-0.09765 Australia  ')
 st.text('Origines :\n-0.50212 Asian \n-1.10702 Black\n1.90725 Mixed-Black/Asian \n0.12600 Mixed-White/Asian \n-0.22166 Mixed-White/Black \n0.11440 Other \n-0.31685 White ')
