@@ -100,7 +100,7 @@ st.write(df)
 import os 
 
 path = os.path.dirname(__file__)
-my_file = path+'/save'
+my_file = path+'/save.p'
 
 Model = pkl.load( open( my_file, "rb" ) )
 prediction=Model.predict(df)
